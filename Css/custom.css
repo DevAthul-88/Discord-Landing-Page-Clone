@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'whitney-normal';
+    src: url('/Font/whitneylight.otf');
+}
+
+@font-face {
+    font-family: 'whitney-medium';
+    src: url('/Font/whitneymedium.otf');
+}
+
+@font-face {
+    font-family: 'whitney-bold';
+    src: url('/Font/whitneysemibold.otf');
+}
+
+.navbar {
+    background: transparent;
+}
+
+.navbar-menu{
+    background: transparent
+}
+
+#navbar-section {
+    background: #404eed;
+    background-image: url('../Images/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh !important;
+}
+
+.navbar-brand>.navbar-item>.title {
+    color: #fff;
+}
+
+.navbar-item>a {
+    color: #fff !important;
+    font-family: whitney-medium;
+}
+
+.navbar-item>a:hover {
+    text-decoration: underline;
+}
+
+.top_section_title {
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+.top_section_subtitle {
+
+    font-family: whitney-medium;
+}
+
+.top_btn_2 {
+    background: #23272a;
+    color: #fff;
+    border: none;
+    font-family: whitney-bold;
+}
+
+.top_btn_1 {
+    font-family: whitney-bold;
+}
+
+.top_btn_1:hover {
+    color: #404eed;
+    box-shadow: 0px 0px 12px #23272a;
+    transition: 0.5s ease-in-out;
+}
+
+.top_btn_2:hover {
+    color: #fff;
+    background: #3b3f42;
+    box-shadow: 0px 0px 12px #23272a;
+    transition: 0.3s ease-in-out;
+}
+
+#img_1 {
+    background-image: url('../Images/8a8375ab7908384e1fd6efe408284203.svg');
+
+}
+
+.sec_title {
+    font-family: 'whitney-bold' !important;
+}
+
+.btn_4 {
+    background: #404eed;
+    color: #fff;
+    font-family: 'whitney-medium';
+}
+
+.btn_4:hover {
+    color: #fff;
+}
+
+.blue {
+    color: #404eed;
+}
+
+#footer>.column>ul>li>a {
+    color: #fff;
+    margin-top: 10px;
+    display: block;
+}
+
+#footer>.column>ul>li {
+    color: #404eed;
+
+}
+
+
+#footer>.column>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    background: #404eed;
+}
+
+.footer-btn {
+    background: #404eed !important;
+    color: #fff;
+    border: none;
+}
+
+.footer-btn:hover {
+    color: #fff;
+}
